@@ -172,7 +172,7 @@
     if (t) t.textContent = cfg.text;
     var a = document.getElementById('ck-privacy-link');
     if (a) a.href = cfg.privacyUrl;
-    el.style.display = '';
+    el.style.display = 'block';
     requestAnimationFrame(function () {
       requestAnimationFrame(function () { el.classList.add('ck-show'); });
     });
